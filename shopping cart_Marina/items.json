@@ -1,0 +1,31 @@
+var items = [{
+		"id": "1",
+		"name":"milk",
+		"image":"img/milk.jpg",
+		"price":"1.5",
+		"quantity": "0"
+	},{
+		"id": "2",
+		"name":"apple",
+		"image":"img/apple.jpg",
+		"price":"2.25",
+		"quantity": "0"
+	},{
+		"id": "3",
+		"name":"orange",
+		"image":"img/orange.jpg",
+		"price":"1.99",
+		"quantity": "0"
+	},{
+		"id": "4",
+		"name":"potato",
+		"image":"img/potato.jpg",
+		"price":"2.79",
+		"quantity": "0"
+	},{
+		"id": "5",
+		"name":"tomato",
+		"image":"img/tomato.jpg",
+		"price":"3.15",
+		"quantity": "0"
+}];
