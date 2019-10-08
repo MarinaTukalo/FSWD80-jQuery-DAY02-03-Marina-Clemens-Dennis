@@ -1,0 +1,51 @@
+products =[
+			{
+				"UniqueID":"0",
+				"productName":"coconut milk",
+				"description":"one litre of ccnut milk",
+				"price":"5",
+				"img":"coconut-milk-1623611_640.jpg"
+			},
+			{
+				"UniqueID":"1",
+				"productName":"bio-lemon",
+				"description":"one piece",
+				"price":"1",
+				"img":"agriculture-1846358_640.jpg"
+			},			
+			{
+				"UniqueID":"2",
+				"productName":"fairtrade orange juice",
+				"description":"1 litre of juice",
+				"price":"2.5",
+				"img":"background-3824653_640.jpg"
+			},
+			{
+				"UniqueID":"3",
+				"productName":"cashew cheese",
+				"description":"100 gramms of pure deliciousness",
+				"price":"5",
+				"img":"Go-to-cashew-cheese-3.jpg"
+			},
+			{
+				"UniqueID":"4",
+				"productName":"bio-broccoli",
+				"description":"100 gramms of pure deliciousness",
+				"price":"1.9",
+				"img":"broccoli.jpg"
+			},
+			{
+				"UniqueID":"5",
+				"productName":"Uhudler-Jam",
+				"description":"100 gramms of pure deliciousness",
+				"price":"4.8",
+				"img":"uhudlermarmelade.jpg"
+			},
+			{
+				"UniqueID":"6",
+				"productName":"Mohnstrudel",
+				"description":"250 gramms of pure deliciousness",
+				"price":"8.9",
+				"img":"mohnstrudel-aus-germteig-img-3916.jpg"
+			},
+		];
