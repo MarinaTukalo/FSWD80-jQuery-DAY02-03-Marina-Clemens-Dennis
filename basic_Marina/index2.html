@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic 2</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<style>
+		img{
+			width: 200px;
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<h1>Click on the picture</h1>
+
+	<div>
+		<img src="img/1-2-christmas-bell-png-image.png"><br>
+	</div>
+	<div id="santa">
+		<img src="img/santa-claus.png"><br>
+	</div>
+	<div>
+		<img src="img/White_Gift_Box_with_Red_Bow.png">
+	</div>
+
+	<script>
+		$(document).ready(function(){
+			$("#santa").on("click", function(){
+			// $(this).css("opacity", "0");
+			$(this).empty();
+			});
+		});
+	</script>
+	
+</body>
+</html>
