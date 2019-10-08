@@ -8,7 +8,7 @@
         document.writeln("<tr><td><b>Product Name</b></td><td width=50>" + products[i].productName+ "</td></tr>");
         document.writeln("<tr><td><b>Price</b></td><td width=50>" + products[i].price+ "</td></tr>");
         document.writeln("<tr><td><b>Description</b></td><td width=50>" + products[i].description+"</td></tr>");
-        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + products[i].img+ "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50><img width='200' src="+products[i].img+"></td></tr>");
         document.writeln("<tr><td><b>do buy</b></td><td width=50><button type='button' class='buypr"+i+"' onclick='addToCart"+i+"()''>buy me"+i+"</button></td></tr>");
         
         document.writeln("</table>");
