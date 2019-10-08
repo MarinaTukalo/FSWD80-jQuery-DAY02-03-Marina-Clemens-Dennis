@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic 1</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<style>
+		img{
+			width: 200px;
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<h1>Click on the picture</h1>
+
+	<div>
+		<img id="bell" alt="Bell" src="img/1-2-christmas-bell-png-image.png"><br>
+	</div>
+	<div>
+		<img id="santa" alt="Santa" src="img/santa-claus.png"><br>
+	</div>
+	<div>
+		<img id="gift" alt="Gift" src="img/White_Gift_Box_with_Red_Bow.png">
+	</div>
+
+	<script>
+		$(document).ready(function(){
+			$("div").on("click", function(){
+				var newItem = $(this).find("img").attr("alt");
+				console.log(newItem);
+				$(this).append('<br><p>You clicked on '+ newItem +'</p>');
+			});
+
+//			$("#bell").on("click", function(eventObject){
+// 				alert("you clicked on the bell");
+// 			});
+// 			$("#santa").on("click", function(eventObject){
+// 				alert("you clicked on Santa");
+// 			});
+// 			$("#gift").on("click", function(eventObject){
+// 				alert("you clicked on the gift");
+// 			});
+		});
+	</script>
+	
+</body>
+</html>
