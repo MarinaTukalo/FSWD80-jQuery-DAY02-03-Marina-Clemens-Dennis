@@ -20,4 +20,9 @@
 
 			        }
 			    });
+
+			    $("button").on("click",function(){
+			    	$("#test").clone().appendTo("#result");
+			    	
+				});
 			});
